@@ -1,0 +1,31 @@
+{
+  "name": "basecamp-commentor",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "bcc": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:betaagency-os/basecamp-commentor.git"
+  },
+  "keywords": [
+    "basecamp",
+    "bcx"
+  ],
+  "author": "Aleksej Kamynin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/betaagency-os/basecamp-commentor/issues"
+  },
+  "homepage": "https://github.com/betaagency-os/basecamp-commentor",
+  "dependencies": {
+    "chalk": "^0.5.1",
+    "commander": "^2.3.0",
+    "request": "^2.42.0"
+  }
+}
